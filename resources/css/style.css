@@ -204,4 +204,12 @@ header {
   color: red;
   font-size: 1.2rem;
 }
-/* v v specific span styles */
+/* footer */
+footer {
+  position: relative;
+  margin: 0 auto;
+  color: rgb(255,255,255);
+}
+footer p {
+  text-align: center;
+}
