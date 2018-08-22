@@ -85,8 +85,10 @@ header {
 
 .acti,
 .actii,
-.actiii {
+.actiii,
+.activ {
   padding: 3rem 5rem;
+  margin-top: 2rem;
 }
 
 /* acti II doubleye */
@@ -187,8 +189,15 @@ header {
   font-size: 1.1rem;
   letter-spacing: 1.4rem;
 }
+.actiii h2 {
+  letter-spacing: 0;
+}
 .priestess .right {
   font-size: 2rem;
+}
+.priestess h3 {
+  font-size: 1rem;
+  letter-spacing: 0rem;
 }
 .innerchurch {
   letter-spacing: 1rem;
@@ -196,8 +205,17 @@ header {
 .outerchurch {
   color: red;
 }
-
+.rrpoemi .dec {
+  text-align: right;
+  font-size: 1.6rem;
+  letter-spacing: 2rem;
+}
 /* activ totep */
+.activ {
+  padding-bottom: 2rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
 .activ h2 {
   padding-bottom: 2rem;
 }
@@ -214,15 +232,5 @@ header {
   top: 0;
   opacity: 1;
   color: red;
-  font-size: 1.2rem;
-}
-/* footer */
-footer {
-  position: relative;
-  padding-top: 2rem;
-  margin: 0 auto;
-  color: rgb(255,255,255);
-}
-footer p {
-  text-align: center;
+  font-size: 1.3rem;
 }
