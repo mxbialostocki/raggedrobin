@@ -14,7 +14,7 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
-.container960 .acti {
+.container960 .actii {
   border-left: .5px solid rgb(255,255,255);
   border-right: .5px solid rgb(255,255,255);
 }
@@ -75,23 +75,12 @@ header {
   height: 8rem;
   width: 8rem;
   margin: 0 2rem;
-  background: radial-gradient(circle at 5rem 5rem, rgb(255,0,0), rgb(139,0,0));
+  background: radial-gradient(circle at 4rem 4rem, rgb(255,0,0), rgb(139,0,0));
 }
 .rrpoemi {
   margin: 0 auto;
   text-align: center;
   max-width: 80%;
-}
-.rrpoemii {
-  height: 52rem;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 100%;
-  margin: 2rem auto;
-  background-color: rgb(255,255,255);
-  color: rgb(0,0,0);
-  font-weight: lighter;
-  line-height: 1.2;
 }
 
 .acti,
@@ -150,6 +139,16 @@ header {
 }
 
 /* actii OOO Tripleoh */
+.actii {
+  height: 42rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+  margin: 2rem auto;
+  color: rgb(255,255,255);
+  font-weight: lighter;
+  line-height: 1.2;
+}
 .actii h5 span.small {
   font-size: 1rem;
 }
@@ -168,8 +167,7 @@ header {
 }
 .actii h4 span,
 .actii p span {
-  opacity: 0.3;
-  background: -webkit-linear-gradient(rgb(0,0,0), rgb(0,0,0));
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1rem;
@@ -177,18 +175,32 @@ header {
 }
 .actii h4 span:hover,
 .actii p span:hover {
-  opacity: 1;
-  background: -webkit-linear-gradient(rgb(0,0,0), rgb(0,0,0));
+  background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
   font-weight: bold;
 }
 /* actiii Dectasee */
-
+.actiii {
+  line-height: 2.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1.4rem;
+}
+.priestess .right {
+  font-size: 2rem;
+}
+.innerchurch {
+  letter-spacing: 1rem;
+}
+.outerchurch {
+  color: red;
+}
 
 /* activ totep */
-
+.activ h2 {
+  padding-bottom: 2rem;
+}
 .activ span {
   z-index: 1;
   opacity: 0.1;
@@ -207,6 +219,7 @@ header {
 /* footer */
 footer {
   position: relative;
+  padding-top: 2rem;
   margin: 0 auto;
   color: rgb(255,255,255);
 }
