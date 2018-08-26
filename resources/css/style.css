@@ -8,13 +8,13 @@ html {
 }
 @font-face {
   font-family: 'IBM Plex Mono', monospace;
-  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,600,700")
+  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,600,700");
 }
-.container960 {
-  max-width: 960px;
+.container980 {
+  max-width: 980px;
   margin: 0 auto;
 }
-.container960 .actii {
+.container980 .actii {
   border-left: .5px solid rgb(255,255,255);
   border-right: .5px solid rgb(255,255,255);
 }
@@ -150,6 +150,9 @@ header {
   color: rgb(255,255,255);
   font-weight: lighter;
   line-height: 1.2;
+}
+.actii h2 {
+  padding-top: 2rem;
 }
 .actii h5 span.small {
   font-size: 1rem;
