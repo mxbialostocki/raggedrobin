@@ -1,6 +1,138 @@
 /* code written by @mxbialostocki // www.mattbialostocki.com */
 /* Ragged Robin text written by Toyah Webb */
 
-@media only screen and (max-width: 960px) {
-  
+@media only screen and (max-width: 780px) {
+  div .container980 {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  div .container980 .actii {
+    border: .5px solid rgb(255,255,255);
+  }
+  body header {
+    margin: 1rem;
+  }
+  /* typography */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  /* header */
+
+  .cheek {
+    height: 6rem;
+    width: 6rem;
+    background: radial-gradient(circle at 3rem 3rem, rgb(255,0,0), rgb(139,0,0));
+  }
+  .rrpoemi {
+    margin: 0 1rem;
+    max-width: 100%;
+  }
+
+  .acti,
+  .actii,
+  .actiii,
+  .activ {
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+  }
+  div .actii {
+    padding-top: 0;
+  }
+
+  /* acti II doubleye */
+
+  section .acti p {
+    opacity: 1;
+    color: rgb(50,0,0);
+  }
+  div .acti span {
+    opacity: 1;
+    color: rgb(50,0,0);
+  }
+  html .actilines span {
+    color: rgba(50, 0, 0, .8);
+  }
+  .descend h4 {
+    padding-top: 1rem;
+  }
+
+  /* actii OOO Tripleoh */
+  div .actii {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    margin: 2rem auto;
+    color: rgb(255,255,255);
+    font-weight: lighter;
+    line-height: 1.2;
+  }
+
+  div .actii h4 span,
+  div .actii p span {
+    background: -webkit-linear-gradient(rgb(255,255,255), rgb(255,255,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  /* actiii Dectasee */
+  div .actiii {
+    line-height: 1.4rem;
+    letter-spacing: 1.1rem;
+  }
+  .actiii h2 {
+    letter-spacing: 0;
+  }
+  .priestess .right {
+    font-size: 2rem;
+  }
+  .priestess h3,
+  .priestess h4 {
+    font-size: 1rem;
+    letter-spacing: 0rem;
+  }
+  .priestess h4 {
+    letter-spacing: 1;
+  }
+  .innerchurch {
+    letter-spacing: 1rem;
+  }
+  .outerchurch {
+    color: red;
+  }
+  .rrpoemi .dec {
+    max-width: 100%;
+    text-align: right;
+    font-size: 1.3rem;
+    letter-spacing: 1.2rem;
+  }
+  /* activ totep */
+  .activ {
+    padding-bottom: 2rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+  }
+  .activ h2 {
+    padding-bottom: 2rem;
+  }
+  .activ span {
+    z-index: 1;
+    opacity: 0.1;
+    top: -100%;
+    overflow: hidden;
+    color: white;
+    font-size: 1rem;
+  }
+  .activ span:hover {
+    transform: all 1200ms 1200ms ease-in-out;
+    top: 0;
+    opacity: 1;
+    color: red;
+    font-size: 1.3rem;
+  }
+
 }
