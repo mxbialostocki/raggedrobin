@@ -208,10 +208,13 @@ header {
 .outerchurch {
   color: red;
 }
-.rrpoemi .dec {
+.rrpoemi .deci {
   text-align: right;
   font-size: 1.6rem;
   letter-spacing: 2rem;
+}
+.decii {
+  display: none;
 }
 /* activ totep */
 .activ {

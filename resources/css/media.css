@@ -104,27 +104,24 @@
   .outerchurch {
     color: red;
   }
-  .rrpoemi .dec {
-    max-width: 100%;
-    text-align: right;
-    font-size: 1.3rem;
-    letter-spacing: 1.2rem;
+  .rrpoemi .deci {
+    display: none;
+  }
+  .rrpoemi .decii {
+    width: 100%;
+    display: block;
   }
   /* activ totep */
-  .activ {
-    padding-bottom: 2rem;
-    line-height: 1.4rem;
-    font-size: 1.1rem;
+  .binary {
+    color: rgba(255,255,255,0.9);
   }
   .activ h2 {
     padding-bottom: 2rem;
   }
-  .activ span {
+  .activbin:nth-child(even) {
     z-index: 1;
-    opacity: 0.1;
-    top: -100%;
     overflow: hidden;
-    color: white;
+    color: rgba(255,0,0,0.9);
     font-size: 1rem;
   }
   .activ span:hover {
